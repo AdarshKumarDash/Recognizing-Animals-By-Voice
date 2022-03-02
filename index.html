@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recognizing Animals By Voice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="text-capitalize">
+    <center>
+        <h1 class="text-primary">Recognizing Animals By Voice<br><label>Note: Play different sounds like barking and meowing.</label></h1>
+        <br>
+        <button class="btn btn-primary" onclick="record()">Start</button>
+        <br><br>
+        <span>Detected Dog - &nbsp;<label id="dogaccuracy"></label></span>&nbsp;&nbsp;<span>Detected Cat - &nbsp;<label id="cataccuracy"></label></span>
+        <br>
+        <span style="font-size: 20px;">I can hear- &nbsp;<label id="hearing"></label></span>
+        <br>
+        <img src="listen.gif">
+      </center>
+      <br><br>
+      <div id="fter">Developed By - Adarsh Kumar Dash</div>
+</body>
+<script src="main.js"></script>
+</html>
