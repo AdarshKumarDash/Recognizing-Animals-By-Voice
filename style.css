@@ -36,3 +36,7 @@ position: fixed;
     line-height: 3;
     text-shadow: 2px 3px 3px rgb(131, 128, 128);
 }
+
+#aniimage {
+    height: 400px;
+}
